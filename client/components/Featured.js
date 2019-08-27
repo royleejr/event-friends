@@ -22,14 +22,15 @@ export default class Featured extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        height: 230,
+        height: 300,
         width: 100 + "%",
         backgroundColor: '#fff',
         paddingBottom: 20,
         paddingLeft: 12,
     },
     featuredTitle: {
-        fontSize: 30
+        fontSize: 30,
+        paddingTop: 15
     },
     featuredScroll: {
         
@@ -37,7 +38,8 @@ const styles = StyleSheet.create({
     featuredImages: {
         marginTop: 10,
         marginRight: 30,
-        height: 200,
+        height: 300,
         width: 350,
+        borderRadius: 4,
     }
 });
