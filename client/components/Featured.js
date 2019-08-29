@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView, Image} from 'react-native';
+import { AppLoading } from 'expo';
 
 export default class Featured extends React.Component {
   render () {
@@ -9,10 +10,9 @@ export default class Featured extends React.Component {
         <ScrollView 
         horizontal={true}
         style={styles.featuredScroll}>
-        <Image style={styles.featuredImages} source={require('../assets/park.jpg')} />
-        <Image style={styles.featuredImages} source={require('../assets/hearts.png')} />
-        <Image style={styles.featuredImages} source={require('../assets/pic.jpg')} />
-        <Image style={styles.featuredImages} source={require('../assets/icon.png')} />
+            {this.props ? this.props.featuredData.map(items => {
+                return <Image style={styles.featuredImages} key= {items.id} source={{uri: items.picture}} />
+            }) : "loading..."}
         </ScrollView>
     </View>      
     
@@ -30,16 +30,17 @@ const styles = StyleSheet.create({
     },
     featuredTitle: {
         fontSize: 30,
-        paddingTop: 15
+        paddingTop: 15,
+        fontWeight: 'bold'
     },
     featuredScroll: {
         
     },
     featuredImages: {
         marginTop: 10,
-        marginRight: 30,
+        marginRight: 20,
         height: 300,
-        width: 350,
+        width: 320,
         borderRadius: 4,
     }
 });

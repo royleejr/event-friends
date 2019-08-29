@@ -4,13 +4,14 @@ import { View, Text, ScrollView, StyleSheet, Image} from 'react-native';
 
 export default class IndividualCard extends React.Component {
     render () {
+        const { picture, date, time, title } = this.props.eventData
         return (
             <View style={styles.individualCard}>
-                <Image style={styles.individualCardImg} source={require('../assets/pic.jpg')}></Image>
-                <Text style={styles.individualCardTitle}>This is the title for the event</Text>
+                <Image style={styles.individualCardImg} source={{uri: picture}}></Image>
+                <Text style={styles.individualCardTitle}>{title}</Text>
                 <View style={styles.individualCardContainer}>
-                    <Text style={styles.individualCardDate}>September 4, 2019</Text>
-                    <Text style={styles.individualCardTime}>5:00pm - 9:30pm</Text>
+                    <Text style={styles.individualCardDate}>{date}</Text>
+                    <Text style={styles.individualCardTime}>{time}</Text>
                 </View>
             </View>
         )
@@ -37,7 +38,7 @@ const styles = StyleSheet.create ({
     individualCardTitle: {
         paddingTop: 20,
         fontSize: 20,
-        paddingBottom: 20
+        paddingBottom: 20,
     },
     individualCardContainer: {
         flex: 1,

@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet, Image} from 'react-native';
+import { View, Text, StyleSheet, Image} from 'react-native';
 
 export default class SmallCard extends React.Component {
     render () {
         return (
             <View style={styles.small}>
-                <Image style={styles.smallImage} source={require('../assets/park.jpg')}></Image>
-                <Text style={styles.smallText}>This is the title for the event</Text>
+                <Image style={styles.smallImage} source={{uri: this.props.hotData.picture}}></Image>
+                <Text style={styles.smallText}>{this.props.hotData.title}</Text>
             </View>
         )
         
@@ -16,18 +16,18 @@ export default class SmallCard extends React.Component {
 const styles = StyleSheet.create({
     small: {
         marginBottom: 10,
-        
+        width: 180,
     },
     smallImage: {
         height: 100,
-        width: 160,
+        width: 170,
         backgroundColor: '#fff',
         paddingBottom: 20,
         borderRadius: 4,
     },
     smallText: {
         fontSize: 15,
-        width: '70%',
+        width: '90%',
         paddingTop: 10,
         marginBottom: 20
     }

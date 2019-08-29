@@ -9,10 +9,11 @@ export default class HotEvents extends React.Component {
             <View style={styles.hotEvents}>
                 <Text style={styles.hotEventsText}>Hot Events</Text>
                 <View style={styles.hotEventsContainer}>
-                    <SmallCard />
-                    <SmallCard />
-                    <SmallCard />
-                    <SmallCard />
+                    {
+                        this.props.hotData ? this.props.hotData.map(item => {
+                            return <SmallCard hotData={item} key={item.title}/>
+                        }) : "loading.."
+                    }
                 </View>
             </View>
         )
@@ -24,19 +25,20 @@ const styles = StyleSheet.create ({
         marginTop: 10,
         paddingLeft: 12,
         paddingRight: 12,
-        width: '100%',
+        width: 100 + '%',
         backgroundColor: '#fff',
         flex: 1,
     }, 
     hotEventsText: {
         fontSize: 30,
-        marginTop: 20
+        marginTop: 20,
+        fontWeight: 'bold',
     },
     hotEventsContainer: {
-        width: '100%',
-        flex: 1,
+        width: 100 + '%',
+        display: 'flex',
         flexWrap: 'wrap',
-        height: 330,
-        marginTop: 10
+        height: 355,
+        marginTop: 10,
     }
 })
