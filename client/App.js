@@ -1,86 +1,28 @@
-import React from 'react';
-import { StyleSheet, Text, View, ScrollView} from 'react-native';
-import axios from 'axios';
+import React from "react";
+import { createStackNavigator, createAppContainer } from "react-navigation";
 
-import Header from './components/Header';
-import Featured from './components/Featured';
-import HotEvents from './components/HotEvents';
-import IndividualCard from './components/IndividualCard';
+import Landing from './screens/Landing';
+import Event from './screens/Event';
+
+
+const AppNavigator = createStackNavigator({
+  Home: Landing,
+  Events: Event
+},{
+  defaultNavigationOptions: {
+    header: null
+  }
+},{
+  initialRouteName: "Home"
+}
+);
+
+
+const AppContainer = createAppContainer(AppNavigator);
 
 export default class App extends React.Component {
-  state = {
-    eventData: []
+  render() {
+    return <AppContainer />;
   }
-
-  componentDidMount () { 
-    this.getData()
-  }
-
-  getData = () => {
-    axios.get('http://localhost:8080')
-    .then(response => {
-      this.setState({
-        eventData: response.data
-      })
-    })
-    .catch(err => console.log(err))
-  }
-
-  getFeatured = () => {
-    if (this.state.eventData) {
-      const featuredData = this.state.eventData.filter(items => items.featured === true)
-      return featuredData
-    }
-  }
-
-  getHot = () => {
-    if (this.state.eventData) {
-      const hotData = this.state.eventData.filter(items => items.hot === true)
-      return hotData
-    }
-  }
-
-  render () {
- 
-    return (
-      <>
-      <Header />
-      <ScrollView style={styles.home}>
-        <Featured featuredData={this.getFeatured()}/>
-        <HotEvents hotData={this.getHot()}/>
-        <View style={styles.upcoming}>
-          <Text style={styles.upcomingTitle}>Upcoming Events</Text>
-          {
-            this.state.eventData ? this.state.eventData.map(item => {
-              return <IndividualCard eventData={item} key={item.location}/>
-            })
-            :  "loading..."
-          }
-        </View>
-        
-      </ScrollView>
-      </>
-    );
-    }
 }
 
-const styles = StyleSheet.create({
-  home: {
-    backgroundColor: '#F4F5F1',
-    flex: 1,
-    fontFamily: 'Helvetica',
-  },
-  upcoming: {
-    backgroundColor: '#fff',
-    marginTop: 15,
-    paddingLeft: 12,
-    paddingRight: 12
-
-  },
-  upcomingTitle: {
-    fontSize: 30,
-    marginTop: 20,
-    fontWeight: 'bold'
-  }
-  
-});

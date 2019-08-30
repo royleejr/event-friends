@@ -30,9 +30,9 @@ const styles = StyleSheet.create ({
         flex: 1,
     }, 
     hotEventsText: {
-        fontSize: 30,
+        fontSize: 25,
         marginTop: 20,
-        fontWeight: 'bold',
+        fontFamily: 'LatoBold',
     },
     hotEventsContainer: {
         width: 100 + '%',

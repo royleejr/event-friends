@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet, Image} from 'react-native';
+import { View, Text, StyleSheet, Image} from 'react-native';
 
 
 export default class IndividualCard extends React.Component {
@@ -24,7 +24,7 @@ const styles = StyleSheet.create ({
         marginTop: 10,
         backgroundColor: '#fff',
         borderBottomWidth: StyleSheet.hairlineWidth,
-        borderBottomColor: 'silver',
+        borderBottomColor: '#00ACF0',
         marginBottom: 20
 
     },
@@ -39,6 +39,7 @@ const styles = StyleSheet.create ({
         paddingTop: 20,
         fontSize: 20,
         paddingBottom: 20,
+        fontFamily: 'Lato'
     },
     individualCardContainer: {
         flex: 1,
@@ -47,10 +48,12 @@ const styles = StyleSheet.create ({
     },
     individualCardDate: {
         paddingBottom: 30,
-        color: 'grey'
+        color: 'grey',
+        fontFamily: 'Lato'
     },
     individualCardTime: {
-        color: 'grey'
+        color: 'grey',
+        fontFamily: 'Lato'
     }   
 
 })

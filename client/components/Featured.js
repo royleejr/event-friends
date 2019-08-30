@@ -1,6 +1,5 @@
 import React from 'react';
 import { StyleSheet, Text, View, ScrollView, Image} from 'react-native';
-import { AppLoading } from 'expo';
 
 export default class Featured extends React.Component {
   render () {
@@ -29,9 +28,9 @@ const styles = StyleSheet.create({
         paddingLeft: 12,
     },
     featuredTitle: {
-        fontSize: 30,
+        fontSize: 25,
         paddingTop: 15,
-        fontWeight: 'bold'
+        fontFamily: 'LatoBold',
     },
     featuredScroll: {
         

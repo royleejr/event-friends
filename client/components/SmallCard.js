@@ -29,6 +29,7 @@ const styles = StyleSheet.create({
         fontSize: 15,
         width: '90%',
         paddingTop: 10,
-        marginBottom: 20
+        marginBottom: 20,
+        fontFamily: 'Lato'
     }
 })
