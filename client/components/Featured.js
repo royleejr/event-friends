@@ -1,16 +1,24 @@
 import React from 'react';
-import { StyleSheet, Text, View, ScrollView, Image} from 'react-native';
+import { StyleSheet, Text, View, ScrollView, Image, TouchableOpacity} from 'react-native';
+
+import FeaturedCard from './FeaturedCard';
 
 export default class Featured extends React.Component {
   render () {
+      console.log(this.props.navigation)
     return (
-    <View style={styles.container}>
+    <View style={styles.featuredContainer}>
         <Text style={styles.featuredTitle}>Featured</Text>
         <ScrollView 
         horizontal={true}
         style={styles.featuredScroll}>
             {this.props ? this.props.featuredData.map(items => {
-                return <Image style={styles.featuredImages} key= {items.id} source={{uri: items.picture}} />
+                return <FeaturedCard key={items.id} data={items} onPress={() => {
+                    this.props.onPress, {
+                        data: items
+                    }}
+                }
+                />
             }) : "loading..."}
         </ScrollView>
     </View>      
@@ -20,9 +28,9 @@ export default class Featured extends React.Component {
 }
 
 const styles = StyleSheet.create({
-    container: {
+    featuredContainer: {
         height: 300,
-        width: 100 + "%",
+        width: "100%",
         backgroundColor: '#fff',
         paddingBottom: 20,
         paddingLeft: 12,
@@ -35,11 +43,17 @@ const styles = StyleSheet.create({
     featuredScroll: {
         
     },
-    featuredImages: {
-        marginTop: 10,
-        marginRight: 20,
-        height: 300,
-        width: 320,
-        borderRadius: 4,
-    }
+    // featuredImages: {
+    //     marginTop: 10,
+    //     marginRight: 20,
+    //     height: 300,
+    //     width: 320,
+    //     borderRadius: 4,
+    // },
+    // featuredText: {
+    //     color: 'black',
+    //     position: 'relative',
+    //     top: -40,
+    //     right: 20
+    // }
 });

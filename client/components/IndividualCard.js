@@ -1,19 +1,19 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image} from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 
 
 export default class IndividualCard extends React.Component {
     render () {
         const { picture, date, time, title } = this.props.eventData
         return (
-            <View style={styles.individualCard}>
+            <TouchableOpacity style={styles.individualCard} onPress={this.props.onPress}>
                 <Image style={styles.individualCardImg} source={{uri: picture}}></Image>
                 <Text style={styles.individualCardTitle}>{title}</Text>
                 <View style={styles.individualCardContainer}>
                     <Text style={styles.individualCardDate}>{date}</Text>
                     <Text style={styles.individualCardTime}>{time}</Text>
                 </View>
-            </View>
+            </TouchableOpacity>
         )
     }
 }

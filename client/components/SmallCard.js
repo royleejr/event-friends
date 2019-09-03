@@ -1,13 +1,13 @@
 import React from 'react';
-import { View, Text, StyleSheet, Image} from 'react-native';
+import { View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 
 export default class SmallCard extends React.Component {
     render () {
         return (
-            <View style={styles.small}>
+            <TouchableOpacity style={styles.small} onPress={this.props.onPress}>
                 <Image style={styles.smallImage} source={{uri: this.props.hotData.picture}}></Image>
                 <Text style={styles.smallText}>{this.props.hotData.title}</Text>
-            </View>
+            </TouchableOpacity>
         )
         
     }

@@ -6,14 +6,13 @@ import LottieView from 'lottie-react-native';
 export default class Header extends React.Component {
   render () {
     return (
-        <View style={styles.header}> 
-          {/* <LottieView style={styles.logo} source={require('../assets/images/light-logo.json')}/> */}
+        // <View style={styles.header}> 
           <View style={{display: 'flex', flexDirection:'row'}}>
             <Text style={styles.headerText}>Event</Text>
             <Text style={styles.headerFriends}>Friends</Text>
           </View>
-          
-        </View>
+
+        // </View> 
     );
     }
 }
