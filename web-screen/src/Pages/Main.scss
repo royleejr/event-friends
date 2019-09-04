@@ -1,0 +1,46 @@
+.main {
+  font-family: 'Lato';
+  height: 100vh;
+  width: 100vw;
+  font-weight: bold;
+  // background-image: linear-gradient(to left, black, #00ACF0);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__logo {
+    display: flex;
+    text-align: center;
+    margin: 40px 0;
+  }
+  &__event {
+    font-size: 80px;
+    margin: 0;
+  }
+
+  &__friends {
+    font-size: 80px;
+    color: #00ACF0;
+    margin: 0;
+  }
+
+  &__img-container{
+    display:flex;
+  }
+
+  &__home-img {
+    height: 400px;
+    width: 270px;
+  }
+
+  &__app-container {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  &__app {
+    width: 200px;
+    margin-right: 80px;
+    margin-left: 80px;
+  }
+}
