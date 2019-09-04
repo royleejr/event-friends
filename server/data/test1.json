@@ -59,7 +59,7 @@
     "favourite": false
   },
   {
-    "id": 94823404823,
+    "id": 9283904283424,
     "title": "A Culinary Journey Across Canada",
     "description": "The Ritz-Carlton, Toronto brings together four of Canada’s top chefs on September 4th for an evening that will enliven your palate and give back to the local community. Toronto is synonymous with diversity and great food. Guests from all over the world have made Toronto a destination to seek authentic cultural and culinary experiences. To kick off the 44th annual Toronto International Film Festival, The Ritz-Carlton, Toronto invites you to discover the flavours from across Canada. Iron Chef Canada 2018 winner and Executive Chef of Vancouver’s Boulevard Kitchen and Oyster Bar, Alex Chen, Chopped Canada Judge and owner of Montreal’s Park restaurant Chef Antonio Park, join The Ritz-Carlton, Toronto Executive Chef Paul Shewchuk and Executive Pastry Chef Gaël Moutet for an evening of celebrating the best that Canada has to offer with a 4-course dinner, Canadian wine pairings and a chance to meet and greet these celebrity chefs. Chef Shewchuk says, Local, sustainable and handcrafted cuisine celebrate the true flavours of each ingredient. It is up to us as chefs to use our imagination and push the limits of what we can do with each season’s harvest. The hotel’s Community Social Responsibility program, Community Footprints, is an integral part of The Ritz-Carlton, Toronto. Being a part of and giving back to the community is something that we strive to do all year long. General Manager, Franck X. Arnold explained, During TIFF, there is a lot of glamour and extravagance. We want to make sure that we stay grounded to our core values and help people who are less fortunate. This year, we are donating all profits from our dinner to the Fork York Food Bank. Our chefs will also work with the kitchen to prepare dishes for their clients. To take part in this one-of-a-kind dinner at The Ritz-Carlton, Toronto’s TOCA restaurant, please contact reservations at info@tocarestaurant.com or call 416-572-8008.",
     "lat": 43.645489,
@@ -236,27 +236,29 @@
     "hot": true,
     "favourite": false
   },
-  {
-    "id": 679938475382847,
-    "title": "Star Trek Trivia Night - Big Fact Hunt",
-    "description": "Who? What? Where? When? Wig! Join Quiz Master & Sub (Jenna & Kyle) as they host BIG FACT HUNT TRIVIA at the Beaver - Wed. September 4th @ 730pm Category Is? STAR TREK Bring your best STAR TREK knowledge and win prizes, bragging rights and a photo-op...to join the winner circle on our instagram: @bigfacthunt_trivia Challenge your knowledge of the series, the movies, alien races, sexy Starfleet personnel and all things weird and zany from STAR TREK in the style of the oddest Trivia Duo this side of Queen Street West This Big Fact Hunt awaits you. Live long and prosper, binch!",
-    "lat": 43.642897,
-    "long": -79.426448,
-    "catagories": [
-      "indoor",
-      "games",
-      "culture",
-      "social"
-    ],
-    "date": "September 4, 2019",
-    "time": "7:30 PM – 10:00 PM",
-    "picture": "https://media.blogto.com/events/2019/08/26/original_image78f7e62a-2309-4216-bc5b-e308b11ab588.jpg?w=2048&cmd=resize&quality=70",
-    "location": "Beaver Cafe",
-    "address": "1192 Queen Street West",
-    "featured": false,
-    "hot": true,
-    "favourite": false
-  },
+  [
+    {
+      "id": 679938475382847,
+      "title": "Star Trek Trivia Night - Big Fact Hunt",
+      "description": "Who? What? Where? When? Wig! Join Quiz Master & Sub (Jenna & Kyle) as they host BIG FACT HUNT TRIVIA at the Beaver - Wed. September 4th @ 730pm Category Is? STAR TREK Bring your best STAR TREK knowledge and win prizes, bragging rights and a photo-op...to join the winner circle on our instagram: @bigfacthunt_trivia Challenge your knowledge of the series, the movies, alien races, sexy Starfleet personnel and all things weird and zany from STAR TREK in the style of the oddest Trivia Duo this side of Queen Street West This Big Fact Hunt awaits you. Live long and prosper, binch!",
+      "lat": 43.642897,
+      "long": -79.426448,
+      "catagories": [
+        "indoor",
+        "games",
+        "culture",
+        "social"
+      ],
+      "date": "September 4, 2019",
+      "time": "7:30 PM – 10:00 PM",
+      "picture": "https://media.blogto.com/events/2019/08/26/original_image78f7e62a-2309-4216-bc5b-e308b11ab588.jpg?w=2048&cmd=resize&quality=70",
+      "location": "Beaver Cafe",
+      "address": "1192 Queen Street West",
+      "featured": false,
+      "hot": true,
+      "favourite": true
+    }
+  ],
   {
     "id": 99938475382847,
     "title": "Earlscourt Comedy Smokeshow",

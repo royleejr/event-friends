@@ -1,15 +1,10 @@
-[
-  {
+[{
     "id": 139750274342,
-    "title": "14th annual CaribbeanTales International Film Festival",
+    "title" : "14th annual CaribbeanTales International Film Festival",
     "description": "CaribbeanTales breaks dawn on ‘A New Day’ with a powerful Lineup of Caribbean Films, 8 Presentation Nights| Sept. 4–Sept. 20 | 20+ Phenomenal Films.",
     "lat": 43.655159,
     "long": -79.417068,
-    "catagories": [
-      "indoor",
-      "culture",
-      "film"
-    ],
+    "catagories": ["indoor",  "culture", "film"],
     "date": "September 4 – 20, 2019",
     "time": "5:30 PM – 9:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/16/original_image6ab9bab6-cd0f-4863-8301-2fc61a332e0f.jpg?w=2048&cmd=resize&quality=70",
@@ -18,18 +13,14 @@
     "featured": false,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 90832103813,
-    "title": "High Minded: The Endless Summer with live score by TOPS",
+    "title" : "High Minded: The Endless Summer with live score by TOPS",
     "description": "Catch the last wave of summer with this special concert screening of the ‘60s cult classic The Endless Summer, reimagined with an original live score performed by Montreal indie-rock stars TOPS. Lay back, leave everything behind and join California surfers Robert August and Mike Hynson as they travel the waters of West Africa through the sun-blissed coasts of Australia and Tahiti to achieve their great dream: to try the wildest waves in the world. Known for its mesmerizing, hypnotic visuals, we’re trading in the film’s original soundtrack for an elevated audio-visual experience that will leave you riding high. High Minded: It’s legal now. A screening series featuring the biggest-thinking, most visually profound and psychedelic documentary cinema. 19+ Tickets: $17 (Members: $12, $10, Free)",
     "lat": 43.665501,
-    "long": -79.41053,
-    "catagories": [
-      "indoor",
-      "sports",
-      "film"
-    ],
+    "long": -79.410530,
+    "catagories": ["indoor", "sports", "film"],
     "date": "September 4, 2019",
     "time": "8:00 PM – 11:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/02/67789032_3055218871185451_5217604418110750720_n.jpg?w=2048&cmd=resize&quality=70",
@@ -38,17 +29,14 @@
     "featured": false,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 14701232032,
-    "title": "Lenny Kravitz in Toronto",
+    "title" : "Lenny Kravitz in Toronto",
     "description": "Be prepared to be wowed and in awe for watching Lenny Kravitz in Toronto for the first time in over 10 years! He is back and ripping the stage like old times! Come watch and enjoy!",
-    "lat": 43.62933,
+    "lat": 43.629330,
     "long": -79.415123,
-    "catagories": [
-      "outdoor",
-      "music"
-    ],
+    "catagories": ["outdoor", "music"],
     "date": "September 4, 2019",
     "time": "8:00 PM",
     "picture": "https://media.blogto.com/events/2019/05/06/59593209_2313847432017005_8275233937266049024_o.jpg?w=2048&cmd=resize&quality=70",
@@ -57,17 +45,14 @@
     "featured": true,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 94823404823,
-    "title": "A Culinary Journey Across Canada",
+    "title" : "A Culinary Journey Across Canada",
     "description": "The Ritz-Carlton, Toronto brings together four of Canada’s top chefs on September 4th for an evening that will enliven your palate and give back to the local community. Toronto is synonymous with diversity and great food. Guests from all over the world have made Toronto a destination to seek authentic cultural and culinary experiences. To kick off the 44th annual Toronto International Film Festival, The Ritz-Carlton, Toronto invites you to discover the flavours from across Canada. Iron Chef Canada 2018 winner and Executive Chef of Vancouver’s Boulevard Kitchen and Oyster Bar, Alex Chen, Chopped Canada Judge and owner of Montreal’s Park restaurant Chef Antonio Park, join The Ritz-Carlton, Toronto Executive Chef Paul Shewchuk and Executive Pastry Chef Gaël Moutet for an evening of celebrating the best that Canada has to offer with a 4-course dinner, Canadian wine pairings and a chance to meet and greet these celebrity chefs. Chef Shewchuk says, Local, sustainable and handcrafted cuisine celebrate the true flavours of each ingredient. It is up to us as chefs to use our imagination and push the limits of what we can do with each season’s harvest. The hotel’s Community Social Responsibility program, Community Footprints, is an integral part of The Ritz-Carlton, Toronto. Being a part of and giving back to the community is something that we strive to do all year long. General Manager, Franck X. Arnold explained, During TIFF, there is a lot of glamour and extravagance. We want to make sure that we stay grounded to our core values and help people who are less fortunate. This year, we are donating all profits from our dinner to the Fork York Food Bank. Our chefs will also work with the kitchen to prepare dishes for their clients. To take part in this one-of-a-kind dinner at The Ritz-Carlton, Toronto’s TOCA restaurant, please contact reservations at info@tocarestaurant.com or call 416-572-8008.",
     "lat": 43.645489,
     "long": -79.387024,
-    "catagories": [
-      "indoor",
-      "food"
-    ],
+    "catagories": ["indoor", "food"],
     "date": "September 4, 2019",
     "time": "7:00 PM – 11:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/26/original_image1e4a4676-a52d-4e9b-a4d2-db0b392f46ec.jpg?w=2048&cmd=resize&quality=70",
@@ -76,17 +61,14 @@
     "featured": false,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 9283904283424,
-    "title": "It's ON This Summer at Ontario Place",
+    "title" : "It's ON This Summer at Ontario Place",
     "description": "Ontario Place has much in store for visitors this summer! Zen out with our FREE weekends and monthly sunset yoga classes in the park. Take a spin in a kayak or paddle boat at Lake Shore Boat rentals or hop on a Segway adventure courtesy of Go Tours. In search of a culinary adventure? The West Island will home to a variety of exciting festivals. Grab a bite or drink at Vista Eatery’s licensed patio and listen to live jazz on Sunday afternoons with a prime waterfront view or spend the afternoon playing games of table tennis, chess and more. And for the kids, we have imagination playground™, giant foam blocks for them to build and create. Looking for a rainy day activity? Visit the iconic Cinesphere for an immersive IMAX experience. Ontario Place truly offers something for everyone. Visit http://ontarioplace.com/en/whatson/",
     "lat": 43.645489,
     "long": -79.387024,
-    "catagories": [
-      "indoor",
-      "food"
-    ],
+    "catagories": ["indoor", "food"],
     "date": "September 4, 2019",
     "time": "5:00 AM – 12:00 AM",
     "picture": "https://media.blogto.com/events/2019/05/06/original_imageea2aa763-16d8-4596-9803-ad38a14adaa7.jpg?w=2048&cmd=resize&quality=70",
@@ -95,17 +77,14 @@
     "featured": true,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 528904843028420,
-    "title": "Museum of Broken Relationships",
+    "title" : "Museum of Broken Relationships",
     "description": "Harbourfront Centre is bringing together Toronto’s broken-hearted, hopeless romantics, and brave performers during BRAVE: Secret Lives, Second Chances. This includes the The Museum of Broken Relationships A collection of crowd-sourced mementos are being accepted to be part of the Ontario premiere of this unique exhibition that has travelled to more than 50 cities globally. Curators Olinka Vištica and Dražen Grubišić take objects donated by Canadians and individuals from around the world to elegantly capture hope, inspiration, and a collection that everyone can identify with. The BRAVE festival is a multidisciplinary arts festival returns this July to offer a fresh and daring examination on what it means to be ‘brave’. Last year, Toronto explored bravery through risks and failures; this year’s iteration will uncover the hidden potential and concealed aspects of the human existence.",
     "lat": 43.638969,
     "long": -79.382683,
-    "catagories": [
-      "indoor",
-      "film"
-    ],
+    "catagories": ["indoor", "film"],
     "date": "September 4-8, 2019",
     "time": "12:00 PM – 8:00 PM",
     "picture": "https://media.blogto.com/events/2019/05/30/10485-1.jpg?w=2048&cmd=resize&quality=70",
@@ -114,17 +93,14 @@
     "featured": false,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 5278543953854,
-    "title": "The Funhouse",
+    "title" : "The Funhouse",
     "description": "The Funhouse is an immersive, experiential art maze that fuses visual art, music and interactive tech, taking guests on a choose-you-own-adventure-style sensory experience through 14 featured rooms. The maze includes exclusives works from well-known Toronto artists such as the Broadbent Sisters, Ness Lee, Ben Johnston, and Paul Jackson inspired by the music of Toronto musicians like Jazz Cartier, The Beaches, LIGHTS and more. Open all summer long, guests will have to come more than once to see it all.",
     "lat": 43.643547,
     "long": -79.423429,
-    "catagories": [
-      "indoor",
-      "arts"
-    ],
+    "catagories": ["indoor", "arts"],
     "date": "September 4-22, 2019",
     "time": "10:00 AM – 10:00 PM",
     "picture": "https://media.blogto.com/articles/20190607-FunHouse18.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70",
@@ -133,17 +109,14 @@
     "featured": true,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 3458098417239,
-    "title": "Acrylic Paint Pouring - Freestyle",
+    "title" : "Acrylic Paint Pouring - Freestyle",
     "description": "Join us for a freestyle abstract paint pouring drop in session! Get creative and pour fluid paints on to canvas or wooden birch wood panels to create vibrant acrylic artwork. Just pay for your canvas or wooden panel size and we will include all paint pouring materials. Wednesday, September 4 3pm – 9pm Options include: 8×10 wooden panel – $20 11×14 wooden panel – $34+HS 8×10 canvas – $18+HST 11×14 canvas – $30 + HST Larger canvases and wooden panels may be available for an additional cost. Please note, paint pouring pieces will take at least 24hrs to dry completely. You are welcome to take them wet in one of our trays or to pick up your piece at a later date. This is not an instructed paint pouring workshop – so participants should be familiar with the paint pouring process. However, we will provide notes for any beginners who would like to explore paint pouring and our staff is always here to help! Due to the volume of participants interested in paint pouring we will be scheduling drop ins in 1.5hr – 2hr intervals to accommodate all painters Contact us to reserve your spot – info@freshpaintstudio.ca or 647-927-0764 Spaces are limited!",
     "lat": 43.684429,
     "long": -79.317642,
-    "catagories": [
-      "indoor",
-      "arts"
-    ],
+    "catagories": ["indoor", "arts"],
     "date": "September 4-8, 2019",
     "time": "3:00 PM – 9:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/29/original_image3bb95dcf-f597-45a7-aae8-74f517a84b59.jpg?w=2048&cmd=resize&quality=70",
@@ -152,19 +125,14 @@
     "featured": false,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 8482384953030327,
-    "title": "Toronto Fashion Week S/S20",
+    "title" : "Toronto Fashion Week S/S20",
     "description": "Returning for another highly anticipated season, Toronto Fashion Week® (TFW) will return for Spring/Summer 2020 fashion presentations. From September 3 to 5, the biannual event will once again set the stage for globally recognized designers and rising stars to showcase their extraordinary talent as well as offer immersive and interactive programming. All events will take place at impressive venues including a return to Yorkville Village, The Hazelton Hotel, the Royal Ontario Museum and a variety of art galleries in and around the Yorkville community.",
     "lat": 43.670883,
     "long": -79.393651,
-    "catagories": [
-      "indoor",
-      "culture",
-      "arts",
-      "business"
-    ],
+    "catagories": ["indoor", "culture", "arts", "business"],
     "date": "September 3 – 5, 2019",
     "time": "3:00 PM – 11:00 PM",
     "picture": "https://media.blogto.com/events/2019/06/26/original_imagebb6cf5e7-a115-49ac-8d30-d1233dff4ce2.jpg?w=2048&cmd=resize&quality=70",
@@ -173,20 +141,14 @@
     "featured": false,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 563829294759387,
-    "title": "Bachatalicious at Toronto Dance Salsa",
+    "title" : "Bachatalicious at Toronto Dance Salsa",
     "description": "Come out every Wednesday except holidays from 10pm-12:30am and dance to Bachata/Salsa/Kizomba. Music Mix is 70 Bachata | 20 Salsa | 10 Kizomba/Merengue. Entry is $8, free 2 hours validated parking, bottle of water and snacks at entry. :-) Empress Walk Studio (2nd floor) on Yonge & Sheppard. Right at the North York Civic Centre subway stop. If you have a song that you love for an upcoming social, please leave it in the comments below. :-)",
-    "lat": 43.76868,
+    "lat": 43.768680,
     "long": -79.412199,
-    "catagories": [
-      "indoor",
-      "culture",
-      "dance",
-      "social",
-      "music"
-    ],
+    "catagories": ["indoor", "culture", "dance", "social", "music"], 
     "date": "September 4, 2019",
     "time": "10:00 PM – 12:30 AM",
     "picture": "https://media.blogto.com/events/2019/01/04/original_imagecf0b360a-ab3a-4881-9673-b97d8114f8f7.jpg?w=2048&cmd=resize&quality=70",
@@ -195,18 +157,14 @@
     "featured": true,
     "hot": false,
     "favourite": false
-  },
-  {
+},
+{
     "id": 6406950694829345,
-    "title": "Burger Fest at Beaumont Kitchen",
+    "title" : "Burger Fest at Beaumont Kitchen",
     "description": "From September 3-27, join us for weekday lunch or dinner daily and feast on one of Chef Vanessa’s six juicy burgers, specially created for Burger Fest! From our Mushroom Swiss Beef Burger to our vegetarian Falafel Burger, there’s a juicy patty with your name on it. Pair your burger and fries with our Daily Drink Specials and you’re set! Ask us about our gluten-free, keto, paleo “Unbun”! Burger Fest is available for lunch weekdays, and dinner daily. Browse the menu below and book your table today!",
     "lat": 43.611889,
     "long": -79.556737,
-    "catagories": [
-      "indoor",
-      "food",
-      "social"
-    ],
+    "catagories": ["indoor", "food", "social"],
     "date": "September 4-8, 2019",
     "time": "11:30 AM – 10:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/22/original_imagea13bac86-565c-40c2-83e2-ebde2e776e6e.jpg?w=2048&cmd=resize&quality=70",
@@ -215,18 +173,14 @@
     "featured": false,
     "hot": true,
     "favourite": false
-  },
-  {
+},
+{
     "id": 86382949776634,
-    "title": "Flow in the Park - Free Yoga",
+    "title" : "Flow in the Park - Free Yoga",
     "description": "Every summer Wednesday at 6:30pm, join us in Kew Gardens for a free, all-levels yoga class in the sunshine!",
     "lat": 43.670127,
     "long": -79.298896,
-    "catagories": [
-      "outdoor",
-      "sports",
-      "culture"
-    ],
+    "catagories": ["outdoor", "sports", "culture"],
     "date": "September 4, 2019",
     "time": "6:30 PM – 7:30 PM",
     "picture": "https://media.blogto.com/events/2019/08/10/original_image636b01db-88f9-46c7-9995-90548bac0db6.jpg?w=2048&cmd=resize&quality=70",
@@ -235,19 +189,14 @@
     "featured": true,
     "hot": true,
     "favourite": false
-  },
-  {
+},
+{
     "id": 679938475382847,
-    "title": "Star Trek Trivia Night - Big Fact Hunt",
+    "title" : "Star Trek Trivia Night - Big Fact Hunt",
     "description": "Who? What? Where? When? Wig! Join Quiz Master & Sub (Jenna & Kyle) as they host BIG FACT HUNT TRIVIA at the Beaver - Wed. September 4th @ 730pm Category Is? STAR TREK Bring your best STAR TREK knowledge and win prizes, bragging rights and a photo-op...to join the winner circle on our instagram: @bigfacthunt_trivia Challenge your knowledge of the series, the movies, alien races, sexy Starfleet personnel and all things weird and zany from STAR TREK in the style of the oddest Trivia Duo this side of Queen Street West This Big Fact Hunt awaits you. Live long and prosper, binch!",
     "lat": 43.642897,
     "long": -79.426448,
-    "catagories": [
-      "indoor",
-      "games",
-      "culture",
-      "social"
-    ],
+    "catagories": ["indoor", "games", "culture", "social"],
     "date": "September 4, 2019",
     "time": "7:30 PM – 10:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/26/original_image78f7e62a-2309-4216-bc5b-e308b11ab588.jpg?w=2048&cmd=resize&quality=70",
@@ -256,18 +205,14 @@
     "featured": false,
     "hot": true,
     "favourite": false
-  },
-  {
+},
+{
     "id": 99938475382847,
-    "title": "Earlscourt Comedy Smokeshow",
+    "title" : "Earlscourt Comedy Smokeshow",
     "description": "Join us for our monthly comedy night. The lineup: Max Sheldrick Cameron LaPrairie Andrew Oporto Conor Van Abbe Allie Pearse Host: TJ Rust Book the babysitter and get ready to laugh.",
     "lat": 43.683032,
     "long": -79.418352,
-    "catagories": [
-      "indoor",
-      "games",
-      "social"
-    ],
+    "catagories": ["indoor", "games", "social"],
     "date": "September 4, 2019",
     "time": "8:30 PM – 10:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/27/original_image6d1124b4-58c5-4ce1-8e97-19e7f5d74d72.jpg?w=2048&cmd=resize&quality=70",
@@ -276,19 +221,14 @@
     "featured": false,
     "hot": true,
     "favourite": false
-  },
-  {
+},
+{
     "id": 19938475382847,
-    "title": "Monkey Business at The John 3",
+    "title" : "Monkey Business at The John 3",
     "description": "The John x Flying Monkeys Present: MONKEY BUSINESS Flying Monkeys Brewing Tap Takeover Backyard BBQ Games Beer Sampling More! Join us Wednesday September 4th 2019 at 7pm for some weird yet normal fun with your pals at The John 3 Location: The John 3 682, 686 Queen Street East Time: 7pm-Onward Follow us on social @thejohnbar",
     "lat": 43.655633,
     "long": -79.364337,
-    "catagories": [
-      "outdoor",
-      "food",
-      "games",
-      "social"
-    ],
+    "catagories": ["outdoor", "food", "games", "social"],
     "date": "September 4, 2019",
     "time": "7:00 PM – 10:00 PM",
     "picture": "https://media.blogto.com/events/2019/08/27/original_imaged5b3fa5b-f137-4966-a135-3896506aeff5.jpg?w=2048&cmd=resize&quality=70 ",
@@ -297,5 +237,5 @@
     "featured": true,
     "hot": false,
     "favourite": false
-  }
+} 
 ]

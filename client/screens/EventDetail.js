@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text, Image, ScrollView, StyleSheet, Modal, Button, TextInput} from 'react-native';
 import MapView from 'react-native-maps';
 import { Marker } from 'react-native-maps';
+import axios from 'axios';
 
 import {Ionicons} from '@expo/vector-icons'
 
@@ -11,16 +12,58 @@ export default class EventDetail extends React.Component {
 
     state = {
         modalVisible: false,
+        like: false
     }
+
+    componentDidMount () {
+        const data1 = this.props.navigation.getParam('data', 'no-data');
+
+        this.state.like != data1.favourite ? this.setState({
+            like: data1.favourite
+        }) : console.log('hello')
+    }
+
+    // componentDidUpdate () {
+    //     const data1 = this.props.navigation.getParam('data', 'no-data');
+
+    //     axios.get('http://5f46425d.ngrok.io')
+    //     .then(response => {
+    //         const oneData = response.data.filter(item => item.id === data1.id)
+    //         this.state.like != oneData.favourite ? this.setState({
+    //             liked: oneData.favourite
+    //         })  :  null
+    //     })
+        
+    // }
 
     setModalVisible(visible) {
         this.setState({modalVisible: visible});
       }
+    
+    like = (id) => {
+        this.setState({
+            like: !this.state.like
+        })
+
+        axios.put('http://5f46425d.ngrok.io', {
+            "id": id
+        })
+        .then(response => {
+            console.log('it worked!')
+        })
+        .catch(error => {
+            console.log(error)
+        })
+    }
+
+    putServer = () => {
+        this.state.like === true 
+    }
 
     render() {
-
         const data = this.props.navigation.getParam('data', 'no-data')
-
+        const heartIconColor = this.state.like ? '#00ACF0' : 'gray'
+        console.log(heartIconColor)
         return (
             <ScrollView style={styles.detail}>
                 <Image style={styles.detailImg} source={{uri: data.picture}} />
@@ -33,7 +76,8 @@ export default class EventDetail extends React.Component {
                     <View style={styles.detailFlex}>
                         <Text style={styles.detailDate}>{data.date}</Text>
                         <Text style={styles.detailTime}>{data.time}</Text>
-                        {/* <Ionicons name='ios-home' size={30} color={tintColor}/> */}
+
+                        <Ionicons name='ios-heart' size={30} color={heartIconColor} onPress={() => this.like(data.id)} />
                     </View>
                     <Text style={styles.detailDescription}> {data.description}</Text>
                     {/* <View style={styles.detailButtonContainer}>

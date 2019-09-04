@@ -21,11 +21,12 @@ export default class Event extends React.Component {
   }
 
 componentDidMount () { 
-    this.getData()
+    setInterval(() => this.getData(), 3000)
+    // this.getData()
   }
 
   getData = () => {
-    axios.get('http://0df41a98.ngrok.io')
+    axios.get('http://5f46425d.ngrok.io')
     .then(response => {
       this.setState({
         eventData: response.data
@@ -55,6 +56,8 @@ componentDidMount () {
   }
 
   render () {
+    
+      console.log('event')
     return (
       <>
       {/* <Header /> */}
@@ -65,7 +68,7 @@ componentDidMount () {
             horizontal={true}
             style={styles.featuredScroll}>
                 {this.state.featuredData.length > 0 ? this.state.featuredData.map(items => {
-                    return <FeaturedCard key={items.id} featuredData={items} onPress={() => {
+                    return <FeaturedCard key={items.long} featuredData={items} onPress={() => {
                         this.props.navigation.navigate('EventDetail', {
                             data: items
                         })
@@ -95,7 +98,7 @@ componentDidMount () {
           <Text style={styles.upcomingTitle}>Upcoming Events</Text>
           {
             this.state.eventData ? this.state.eventData.map(item => {
-              return <IndividualCard eventData={item} key={item.location} onPress={() => {
+              return <IndividualCard key={item.description} eventData={item} onPress={() => {
                   this.props.navigation.navigate('EventDetail', {
                       data: item
                   })

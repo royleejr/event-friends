@@ -11,7 +11,7 @@ export default class HotEvents extends React.Component {
                 <View style={styles.hotEventsContainer}>
                     {
                         this.props.hotData ? this.props.hotData.map(item => {
-                            return <SmallCard hotData={item} key={item.title}/>
+                            return <SmallCard hotData={item} key={item.id}/>
                         }) : "loading.."
                     }
                 </View>

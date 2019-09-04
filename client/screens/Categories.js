@@ -16,7 +16,7 @@ export default class Categories extends React.Component {
     }
 
     getCategories = () => {
-        axios.get('http://0df41a98.ngrok.io/categories')
+        axios.get('http://5f46425d.ngrok.io/categories')
         .then( response => {
             this.setState({
                 categorieData: response.data
@@ -29,7 +29,7 @@ export default class Categories extends React.Component {
     }
 
     getEventData = () => {
-        axios.get('http://0df41a98.ngrok.io')
+        axios.get('http://5f46425d.ngrok.io')
         .then (response => {
             this.setState({
                 eventData: response.data
