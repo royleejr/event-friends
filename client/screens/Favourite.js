@@ -10,7 +10,7 @@ export default class Favourite extends React.Component {
     }
 
     componentDidMount () {
-        setInterval(() => this.getFavouriteData(), 3000)
+        setInterval(() => this.getFavouriteData(), 2000)
         // this.getFavouriteData()
     }
 
@@ -35,6 +35,7 @@ export default class Favourite extends React.Component {
     }
 
     render() {
+        
         // console.log(this.state.favouriteData)
         return (
             <ScrollView style={styles.favourite}>
