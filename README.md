@@ -4,30 +4,27 @@
 
 **EventFriends** is a React Native app that helps users find events in local areas. Unlike other event apps that show ticekted events this app that i made is meant for more casual events that may not require tickets or anything formal that people may want to go to with friends.
 
-
 ## Screenshots
 
-**Landing Page:**
+<p style="text-align: center; font-weight: bold;">Landing Page</p>
 
 ![Screenshot 1](web-screen/src/assets/Home2.png)
 
-**Main Event Page:**
+<p style="text-align: center; font-weight: bold; margin-top: 20px">Main Event Page</p>
 
 ![Screenshot 2](web-screen/src/assets/Event2.png)
 
-**Event Detail Page:**
+<p style="text-align: center; font-weight: bold; margin-top: 20px">Event Detail Page</p>
 
 ![Screenshot 3](web-screen/src/assets/EventDetail2.png)
 
-**Categories Page:**
+<p style="text-align: center; font-weight: bold; margin-top: 20px">Categories Page</p>
 
 ![Screenshot 4](web-screen/src/assets/Categories2.png)
 
-**Favourites Page:**
+<p style="text-align: center; font-weight: bold; margin-top: 20px">Favourites Page</p>
 
 ![Screenshot 5](web-screen/src/assets/Favourite2.png)
-
-
 
 ## Technologies
 
