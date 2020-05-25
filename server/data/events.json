@@ -74,7 +74,7 @@
     "address": "140 Erskine Ave #2116, Toronto",
     "featured": false,
     "hot": false,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 8543221166574342,
@@ -210,7 +210,7 @@
     "address": "608 College St",
     "featured": false,
     "hot": false,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 90832103813,
@@ -287,7 +287,7 @@
     "address": "955 Lake Shore Blvd. West",
     "featured": true,
     "hot": false,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 528904843028420,
@@ -407,7 +407,7 @@
     "address": "25 The West Mall",
     "featured": false,
     "hot": true,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 86382949776634,
@@ -427,7 +427,7 @@
     "address": "2075 Queen St E",
     "featured": true,
     "hot": true,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 679938475382847,
@@ -468,7 +468,7 @@
     "address": "1278 St. Clair Ave. West",
     "featured": false,
     "hot": true,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 76448945675862,
@@ -508,7 +508,7 @@
     "address": "682 686 Queen St E",
     "featured": false,
     "hot": false,
-    "favourite": false
+    "favourite": true
   },
   {
     "id": 197074239750274340,

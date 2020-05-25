@@ -30,9 +30,8 @@
 
 - [React Native](https://facebook.github.io/react-native/)
 - [SCSS](https://sass-lang.com/)
-- [Axios](https://github.com/axios/axios)
-- [Node](https://nodejs.org/en/)
-- [Express](https://expressjs.com/)
+- [Javascript](https://www.javascript.com/)
+
 
 ## Features
 
