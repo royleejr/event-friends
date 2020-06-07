@@ -2,7 +2,7 @@
 
 ## Introduction
 
-**EventFriends** is a React Native app that helps users find events in local areas. Unlike other event apps that show ticekted events this app that i made is meant for more casual events that may not require tickets or anything formal that people may want to go to with friends.
+**EventFriends** is a React Native app that helps users find events in local areas. Unlike other event apps that show ticketed events, this app is meant for more casual events that do not require tickets.
 
 ## Screenshots
 
